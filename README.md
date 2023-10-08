@@ -1,2 +1,2 @@
-# border-radius-generator
+# Border-Radius-Generator
 ### Gerador de Border Radius

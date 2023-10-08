@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Border Radius Generator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!---------------------------CSS link----------------------------->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!---------------------------Header----------------------------->
+    <header class="header">
+        <h1>Border radius generator</h1>
+    </header><!--end header-->
+    <!---------------------------Section----------------------------->
+    <section class="section">
+        <div class="container-area">
+            <main class="container" id="container"></main>
+            <textarea id="text-area" cols="30" rows="10"></textarea>
+        </div><!--end container area-->
+        <div class="input-field">
+            <div class="input-box">
+                <label for="border-top-left">Border top left</label>
+                <input type="range" min="0" max="200" value="10" id="border-top-left">
+                <p class="result-1"></p>
+            </div><!--end input box-->
+            <div class="input-box">
+                <label for="border-top-right">Border top right</label>
+                <input type="range" min="0" max="200" value="10" id="border-top-right">
+                <p class="result-2"></p>
+            </div><!--end input box-->
+            <div class="input-box">
+                <label for="border-bottom-right">Border bottom right</label>
+                <input type="range" min="0" max="200" value="10" id="border-bottom-right">
+                <p class="result-3"></p>
+            </div><!--end input box-->
+            <div class="input-box">
+                <label for="border-bottom-left">Border bottom left</label>
+                <input type="range" min="0" max="200" value="10" id="border-bottom-left">
+                <p class="result-4"></p>
+            </div><!--end input box-->
+        </div><!--end input field-->
+    </section><!--end section-->
+    <!---------------------------JavaScript link----------------------------->
+    <script src="js/script.js"></script>
+</body> 
+</html>
